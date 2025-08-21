@@ -1,6 +1,10 @@
 @font-face {
-font-family: "SF-Mada-Bold";
-font-style: normal;
-src: url(SF-Mada-Bold.ttf) format("ttf");
-font-display: auto;
+  font-family: "SF-Mada-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("SF-Mada-Bold.woff2") format("woff2"),
+       url("SF-Mada-Bold.woff") format("woff"),
+       url("SF-Mada-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-synthesis: none;
 }
